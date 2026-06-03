@@ -15,7 +15,7 @@ license = {text = "MIT"}
 
 [dependency-groups]
 dev = [
-    "pyinstaller==6.10.*",
+    "pyinstaller==6.20.*",
     "distro==1.9.*",
 ]
 
