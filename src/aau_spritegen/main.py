@@ -1,12 +1,12 @@
 import json
 import math
 from pathlib import Path
+from typing import Annotated
 
 import typer
 from pyvips import Image
 from pyvips.enums import BlendMode
 from typer import Option, Typer
-from typing_extensions import Annotated
 
 from aau_spritegen.model import Sprite, SpriteIcon
 from aau_spritegen.services import EnhancedJSONEncoder
